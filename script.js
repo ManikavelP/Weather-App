@@ -74,6 +74,12 @@ async function checkWeather(city) {
       weatherImage.src=isDayTime() ?"/assets/mist.png":'/assets/night_mist.webp';
       break;
 
+      default:
+        // Handle unexpected weather condition
+        console.log('Unexpected weather condition:', weatherData.weather[0].main);
+        weatherImage.src = "/assets/location-not-found.svg";
+        break;
+
   
   }
   weatherBody.style.display = "flex";

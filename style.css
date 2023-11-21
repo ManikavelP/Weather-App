@@ -77,14 +77,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-block: 30px;
+  margin-block: 20px;
 }
 .weather-body img{
   width: 60%;
 }
 .weather-box {
   text-align: center;
-  margin-block: 25px;
+  margin-block: 20px;
 }
 
 .weather-box .temp{
